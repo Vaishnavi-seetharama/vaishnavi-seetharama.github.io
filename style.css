@@ -1,0 +1,123 @@
+/* spacing on all sections */
+.section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+.section:last-of-type {
+    padding-bottom: 4rem;
+}
+    
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/bg4.jpg');
+    background-size:cover;
+    position:relative;
+    padding: 0;
+    margin: 0;
+}
+/* text css above hero image*/
+.hero_title {
+    padding-top: 10rem;
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.credit_desc {
+    font-size: 0.7rem;
+}
+
+.credit_text {
+    text-align: right;
+    position: absolute;
+    top: 95%;
+	right:2%;
+    /* transform: translate(-50%, -50%); */
+    color: grey;
+}
+
+.image_about {
+    width: 100%;
+}
+
+.navbarDark {
+    background: #000;
+}
+
+.social-icons {
+	padding-top: 1rem;
+	padding-left: 8rem;
+    font-size: 36px;
+    cursor: pointer;
+}
+.social-icons-foot {
+	background-color: black;
+	text-align: center;
+    font-size: 100px;
+    cursor: pointer;
+}
+.fa-linkedin:hover,
+.fa-google:hover,
+.fa-github:hover{
+    color: #fff;
+}
+.fab {
+    color: #03bafc;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.object-fit_fill {
+	/*  width: 410px;
+	 height: 275px;
+	 object-fit: fill */
+	width: 247px; /* Determines square size */
+	aspect-ratio: 1/1; /* Will keep height equal to width */
+	margin:auto;
+	object-fit: cover; 
+	
+
+}
+.card-text {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.hero_text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.foot_text {
+
+    color: white;
+}
+
